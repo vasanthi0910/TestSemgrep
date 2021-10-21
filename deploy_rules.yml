@@ -8,7 +8,7 @@ rules:
       }
   message: Semgrep found a match
   languages: [java]
-  severity: Error
+  severity: Warning
 
 rules:
 - id: jwt-verify-false
